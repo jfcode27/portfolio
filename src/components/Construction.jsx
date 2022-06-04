@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+
 import { IconLogo } from "../img";
+import { IconInstagram, IconLinkedin, IconGitHub } from "./icons";
 
 const Container = styled.div`
     position: fixed;
@@ -47,6 +49,27 @@ const Loading = styled.span`
 
 `;
 
+const Socials = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    a {
+        color: var(---text);
+        width: 25px;
+        height: 25px;
+        text-decoration: none;
+        margin: 0 1rem;
+        transition: all 0.2s ease-in-out;
+    }
+
+    a:hover {
+        color: var(--royal-blue);
+        transform: translateY(-5px);
+    }
+`;
+
 const Construction = () => {
   return (
     <>
@@ -54,6 +77,11 @@ const Construction = () => {
         <img src={IconLogo} alt="Logo" />
         <span>Jeremy Franco</span>
         <Loading>Loading...</Loading>
+        <Socials>
+            <a href="https://github.com/jfcode27"><IconGitHub/></a>
+            <a href="https://www.linkedin.com/in/jeremy-franco-921931217/"><IconLinkedin/></a>
+            <a href="https://www.instagram.com/jeremy__franco/"><IconInstagram/></a>
+        </Socials>
       </Container>
     </>
   );
