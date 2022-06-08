@@ -70,8 +70,8 @@ const Intro = () => {
         <h1>Hello, my name is</h1>
         <h2 className="big-heading">Jeremy Franco</h2>
         <h3 className="big-heading">Frontend Developer</h3>
-        <p>I'm a software engineering student based in Mexico. I'm currently engaged in 
-        Frontend Development but I am acquiring knowledge to become a full stack web developer.
+        <p>I'm a software engineering student based in Mexico. I'm currently engaged in
+        Frontend Development, I really like to build interfaces based on ui/ux design.
         </p>
         <a href="" className="button">Get In Touch</a>
     </StyledIntro>

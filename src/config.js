@@ -3,10 +3,10 @@ export let navLinks = [
           name: 'About',
           url: '/#about',
         },
-        {
-          name: 'Experience',
-          url: '/#jobs',
-        },
+        // {
+        //   name: 'Experience',
+        //   url: '/#jobs',
+        // },
         {
           name: 'Work',
           url: '/#projects',

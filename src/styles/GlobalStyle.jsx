@@ -106,8 +106,8 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
-      font-family: var(--font-mono);
+      color: var(--royal-blue);
+      font-family: var(--mono-font);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
 
@@ -125,7 +125,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: var(--secondary-text);
 
       @media (max-width: 1080px) {
         width: 200px;

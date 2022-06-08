@@ -33,7 +33,7 @@ const StyledMain = styled.main`
   }
 `;
 
-function Main({ children }) {
+const Main = ({ children }) => {
   return <StyledMain>{children}</StyledMain>;
 }
 
