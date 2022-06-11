@@ -91,6 +91,14 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 60px);
   }
 
+  img,
+  svg,
+  .gatsby-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
   .numbered-heading {
     display: flex;
     align-items: center;

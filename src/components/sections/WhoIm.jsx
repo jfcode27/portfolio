@@ -60,7 +60,6 @@ const StyledImage = styled.div`
   .cover {
     box-shadow: 0 10px 30px -15px var(--royal-tint);
     transition: var(--transition);
-    height: 400px;
 
     &:hover,
     &:focus {

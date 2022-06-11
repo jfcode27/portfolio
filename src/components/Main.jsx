@@ -7,6 +7,7 @@ const StyledMain = styled.main`
   max-width: 1600px;
   min-height: 100vh;
   padding: 0px 150px;
+  counter-reset: section;
 
   @media (max-width: 1080px) {
     padding: 0px 100px;

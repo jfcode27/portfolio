@@ -7,6 +7,7 @@ const variables = css`
     --main-text: #e6f1ff;
     --secondary-text: #8892b0;
     --royal-tint: rgba(0, 123, 255, 0.1);
+    --light-background: #292929;
 
     --main-font: "Calibre", "Inter", "San Francisco", "SF Pro Text",
       -apple-system, system-ui, sans-serif;

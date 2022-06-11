@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { navLinks } from "../config";
@@ -143,7 +143,7 @@ const Navbar = () => {
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <li key={i}>
-                  <Link to={url}>{name}</Link>
+                  <Link to={url} onClick={() => document.getElementById({url}).scrollIntoView({behavior: "smooth"})}>{name}</Link>
                 </li>
               ))}
           </ol>

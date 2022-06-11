@@ -66,7 +66,7 @@ const StyledIntro = styled.section`
 
 const Intro = () => {
   return(
-    <StyledIntro>
+    <StyledIntro >
         <h1>Hello, my name is</h1>
         <h2 className="big-heading">Jeremy Franco</h2>
         <h3 className="big-heading">Frontend Developer</h3>
