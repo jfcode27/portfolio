@@ -116,7 +116,7 @@ const StyledLinks = styled.div`
 
 const Logo = (
   <div className="logo">
-    <a href="">
+    <a href="/">
       <img src={IconLogo} alt="Logo" />
     </a>
   </div>

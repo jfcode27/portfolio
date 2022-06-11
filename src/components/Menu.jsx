@@ -181,9 +181,12 @@ const Menu = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log(menuOpen);
   };
 
+  const handleScroll = () => {
+    setMenuOpen(false);
+    document.getElementById({url}).scrollIntoView({behavior: "smooth"});
+  };
   return (
     <>
     <Helmet>
@@ -203,7 +206,7 @@ const Menu = () => {
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <li key={i}>
-                  <Link to={url}>{name}</Link>
+                  <Link to={url} onClick={() => handleScroll()}>{name}</Link>
                 </li>
               ))}
           </ol>

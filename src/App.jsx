@@ -1,10 +1,10 @@
 import React from "react";
-import Construction from "./components/Construction";
+import {Routes, Route} from "react-router-dom";
+import Index from "./Pages/Index";
+import NotFound from "./Pages/404";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
-import Links from "./components/Links";
 import Socials from "./components/Socials";
-import { Contact, Featured, Intro, WhoIm } from "./components/sections";
 import Email from "./components/Email";
 import Footer from "./components/Footer";
 
@@ -16,13 +16,13 @@ const App = () => {
       <Email />
       <div id="content">
         <Main>
-          <Intro />
-          <WhoIm />
-          <Featured />
-          <Contact />
-          <Footer />
+          <Routes>
+            <Route exact path="/" element={<Index/>}/>
+            <Route path="*" element={<NotFound/>}/>
+          </Routes>
         </Main>
       </div>
+      <Footer />
     </>
   );
 };
