@@ -125,7 +125,7 @@ const Logo = (
 const ResumeLink = (
   <a
     className="resume-button"
-    href=""
+    href="../public/Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
   >
